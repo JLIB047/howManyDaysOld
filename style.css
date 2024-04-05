@@ -1,0 +1,6 @@
+body {
+    display: flex; 
+    text-align: center; 
+    font-family:'Courier New';
+    flex-direction: column;
+}
