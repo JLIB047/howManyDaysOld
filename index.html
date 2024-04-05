@@ -9,24 +9,25 @@
 <body>
     <h1>How many days old are you?</h1>
 
-    <section class="birthday-form">
+    <div class="birthday-form">
         <form method="GET" target="_self">
             <label for="firstName">First Name:</label>
             <input type="text" id="firstName" name="firstName" value="" required>
             <br>
             <label for="birthday">What is your birthday?Month Day, Year</label>
             <input type="date" id="birthday" name="birthday" value="" required>
+            <br>
             <button type="button" onclick="printResults()" class="submitBtn" id="submitBtn">Submit</button>
         </form>
-    </section>
-</body>
-    <div class="days-old-message" id="days-old-message">
-        <h3 class="message" id='message'></h3>
-    </div>
-</br>
-    <div class="other-stats-form" id="other-stats-form">
-        <h4>Please see other stats below:</h4>
-        <p class="stat-message" id="stat-message"></p>
+        <br>
+            <div class="days-old-message" id="days-old-message">
+                <h3 class="message" id='message'></h3>
+            </div>
+        <br>
+            <div class="other-stats-form" id="other-stats-form">
+                <h4>Please see other stats below:</h4>
+                <p class="stat-message" id="stat-message"></p>
+            </div>
     </div>
     <script src="daysOld.js"></script>
 </body>
